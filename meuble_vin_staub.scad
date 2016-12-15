@@ -36,7 +36,7 @@ rotate ([0,angle,0])
      for (i = [0 : 1 : nb_of_shelf])
         translate([-95 * i, 0, 0])
         translate([shelf_widht / 2, 0, thickness])
-            cube([thickness, lenght, sperator_height ], true);
+            %cube([thickness, lenght, sperator_height ], true);
     }    
     
 }
